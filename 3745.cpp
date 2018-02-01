@@ -8,7 +8,7 @@ int main() {
 	std::ios::sync_with_stdio(false);
 	int n;
 
-	// 입력 경우에만 예외 처리하게 되면 LCS 문제와 사실상 소스는 동일
+	// 입력 경우에만 예외 처리하게 되면 가장 긴 증가하는 부분 수열 2 문제와 사실상 소스는 동일
 	while ((cin >> n) && !cin.eof()) {
 		std::vector<int> num_vec(n);
 		std::vector<int> dp;
